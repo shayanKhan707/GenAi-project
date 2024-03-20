@@ -1,5 +1,4 @@
 import streamlit as st
-st.set_option('allow_dangerous_deserialization', True)
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
